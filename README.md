@@ -33,6 +33,12 @@ Word = "text"
 		End
 		Year
 
+# CUTTING
+
+make_glossary.py creates a glossary of all terms
+gen_audio.py takes a phrase and creates an audio file
+cut_by_word.py takes a word and creates an audio file of all instances of that word
+
 # MAKE TSNE's
 
 1. run sort.py to format for tsne's
