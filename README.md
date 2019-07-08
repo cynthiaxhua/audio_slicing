@@ -13,25 +13,25 @@ plain text
 
 ## Phrase:  
 File_No. --> dict  
-	Filename --> text  
-	Phrase_No. --> dict    
-		Start --> text  
-		End --> text  
-		Text --> text  
+	- Filename --> text  
+	- Phrase_No. --> dict    
+		-- Start --> text  
+		-- End --> text  
+		-- Text --> text  
 
 ## Words
 Word_Code = File_Phrase_Word (ex: 3_2_1 is the first word of the second phrase of the third file)  
-	Start  
-	End  
-	Word  
+	- Start  
+	- End  
+	- Word  
 
 ## Glossary
 Word = "text"  
-	Word_Codes (List)  
-	 	File_Phrase_Word  
-		Start  
-		End  
-		Year  
+	- Word_Codes (List)  
+	 	-- File_Phrase_Word  
+		-- Start  
+		-- End  
+		-- Year  
 
 # CUTTING
 
